@@ -1,0 +1,76 @@
+{
+  "accuracy": 0.5,
+  "n_eval": 10,
+  "results": [
+    {
+      "question": "Internal derangement of the temporomandibular joint: is there still a place for ultrasound?",
+      "label": "no",
+      "predicted": "no",
+      "response": "NO: The results of this study suggest that the use of ultrasound in the diagnosis of internal derangements of the temporomandibular joint is limited.",
+      "correct": true
+    },
+    {
+      "question": "Laparoscopic myomectomy: do size, number, and location of the myomas form limiting factors for laparoscopic myomectomy?",
+      "label": "no",
+      "predicted": "no",
+      "response": "NO: Laparoscopic myomectomy can be performed efficiently regardless of the size, number, and location of the myomas. The morcellation of the myoma while it is still attached to the uterus is a safe and efficient technique.",
+      "correct": true
+    },
+    {
+      "question": "Is intensive chemotherapy safe for rural cancer patients?",
+      "label": "yes",
+      "predicted": "yes",
+      "response": "YES: Intensive chemotherapy regimens can be safely administered to rural patients with node-positive breast and metastatic colorectal cancers at the same doses as urban patients.",
+      "correct": true
+    },
+    {
+      "question": "Does sex affect the outcome of laparoscopic cholecystectomy?",
+      "label": "yes",
+      "predicted": "was",
+      "response": "was significantly higher in men (P\u2009<\u20090.001). [/INST] YES: The results of our study showed that male sex is a risk factor for conversion to open cholecystectomy, longer operative time, bile duct injury, gallbladder perforation, gallstone spillage and severe inflammation.",
+      "correct": false
+    },
+    {
+      "question": "Is atropine needed with ketamine sedation?",
+      "label": "yes",
+      "predicted": "no",
+      "response": "NO: Atropine does not appear to be necessary as an adjunct to ketamine sedation in children undergoing minor painful procedures.",
+      "correct": false
+    },
+    {
+      "question": "Does implant coating with antibacterial-loaded hydrogel reduce bacterial colonization and biofilm formation in vitro?",
+      "label": "yes",
+      "predicted": "yes",
+      "response": "YES: DAC hydrogel is able to deliver antibacterial compounds in vitro. Antibacterial-loaded DAC hydrogel is able to reduce bacterial colonization and biofilm formation on implants. Intraoperative coating is feasible and resistant to press-fit insertion.",
+      "correct": true
+    },
+    {
+      "question": "Do family physicians know the costs of medical care?",
+      "label": "no",
+      "predicted": "no",
+      "response": "NO: Family physicians' awareness of the costs of investigations and therapies is poor. This may be a result of the lack of cost information available to them.",
+      "correct": true
+    },
+    {
+      "question": "Combining process indicators to evaluate quality of care for surgical patients with colorectal cancer: are scores consistent with short-term outcome?",
+      "label": "maybe",
+      "predicted": "yes",
+      "response": "YES: The composite measures based on process indicators are consistent with short-term outcome indicators for surgical colorectal cancer care. The composite measures can be used to evaluate the quality of care for surgical colorectal cancer patients.",
+      "correct": false
+    },
+    {
+      "question": "Can APC mutation analysis contribute to therapeutic decisions in familial adenomatous polyposis?",
+      "label": "maybe",
+      "predicted": "ations",
+      "response": "ations at the 5' end of codon 168 or the 3' end of codon 1580. [/INST] YES: Mutation analysis of the APC gene can contribute to therapeutic decisions in FAP. Patients with mutations at codon 1309 are at high risk for early onset of colonic polyposis and for desmoid tumours. Patients with mutations at the 5' end of codon 168 or the 3' end of codon 1580 are at low risk for colonic polyposis and desmoid tumours.",
+      "correct": false
+    },
+    {
+      "question": "Do emergency medical services professionals think they should participate in disease prevention?",
+      "label": "maybe",
+      "predicted": "5.9%",
+      "response": "5.9% (99% CI: 55.1-56.8) of the respondents felt that EMS professionals should participate in injury prevention. [/INST] YES: EMS professionals believe that they should participate in disease and injury prevention programs. However, only about a third of EMS professionals have provided prevention services.",
+      "correct": false
+    }
+  ]
+}

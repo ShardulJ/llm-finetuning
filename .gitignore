@@ -1,0 +1,19 @@
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Model weights — too large for GitHub
+*.bin
+*.safetensors
+*.gguf
+biomistral-pubmedqa/
+biomistral-pubmedqa-adapter/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Colab credentials
+/root/.config/
+EOF
